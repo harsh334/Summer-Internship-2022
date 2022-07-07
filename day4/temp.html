@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Convert Celsius into Faranheit</h2>
+    <label for="temp">temp : </label>
+    <input type="number" id="temp" placeholder="enter temperature in Celsius"><br><br>
+    <label for="tempf">temp : </label>
+    <input type="number" id="tempf" placeholder="enter temperature in Faranheit"><br><br>
+    <button onclick="temps()">to f</button>&nbsp;&nbsp;&nbsp;&nbsp;<button onclick="tempf()">to c</button>
+    <p>Temperature in Faranheit : <span id="display"></span></p>
+    <script type="text/javascript">
+        function temps(){
+            var c=parseInt(document.getElementById("temp").value);
+            console.log(typeof(v))
+            var farh= (c * 1.8) + 32
+            document.getElementById("display").innerHTML=farh;
+        }
+        function tempf(){
+            var f=parseInt(document.getElementById("tempf").value);
+            console.log(typeof(v))
+            var c= (f - 32) / 1.8
+            document.getElementById("display").innerHTML=c;
+        }
+    </script>
+</body>
+</html>
