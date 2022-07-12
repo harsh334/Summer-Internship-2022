@@ -50,12 +50,10 @@ Shallow Copy
 * Shallow Copy stores the references of objects to the original memory address.   
 * Shallow Copy reflects changes made to the new/copied object in the original object.
 * Shallow copy is faster.
-<br>
 Deep Copy
-<br>
-* Deep copy stores copies of the object’s value.
-* Deep copy doesn’t reflect changes made to the new/copied object in the original object.
-* Deep copy is comparatively slower.
+*  Deep copy stores copies of the object’s value.
+*  Deep copy doesn’t reflect changes made to the new/copied object in the original object.
+*  Deep copy is comparatively slower.
 
 ### **7.What is Object.freeze**
 A frozen object is one which cannot be changed. Freezing an object also prevents its prototype from being changed. freeze() returns the same object that was passed in.
