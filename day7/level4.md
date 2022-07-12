@@ -52,6 +52,7 @@ Shallow Copy
 * Shallow copy is faster.
 <br>
 Deep Copy
+<br>
 * Deep copy stores copies of the object’s value.
 * Deep copy doesn’t reflect changes made to the new/copied object in the original object.
 * Deep copy is comparatively slower.
